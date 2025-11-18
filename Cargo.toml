@@ -12,9 +12,9 @@ license = "Unlicense/MIT"
 categories = ["encoding", "parser-implementations"]
 exclude = ["/.github", "/ci/*", "/scripts/*"]
 edition = "2021"
-rust-version = "1.73"
+# rust-version = "1.73"
 
-[workspace]
+#[workspace]
 members = ["csv-core", "csv-index"]
 
 [lib]
