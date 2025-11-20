@@ -30,8 +30,8 @@ serde_core = "1.0.221"
 bstr = { version = "1.7.0", default-features = false, features = ["alloc", "serde"] }
 serde = { version = "1.0.221", features = ["derive"] }
 
-[profile.release]
-debug = true
+# [profile.release]
+# debug = true
 
-[profile.bench]
-debug = true
+# [profile.bench]
+# debug = true
